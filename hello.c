@@ -8,6 +8,10 @@
   Permission is granted to anyone to use this software for any purpose,
   including commercial applications, and to alter it and redistribute it
   freely.
+
+  This software is modified and maintained by Tomsa. Any request or modification goes through testing by Tom's team.
+
+
 */
 #define SDL_MAIN_USE_CALLBACKS 1  /* use the callbacks instead of main() */
 #include <SDL3/SDL.h>
