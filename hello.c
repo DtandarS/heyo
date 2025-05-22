@@ -26,7 +26,7 @@ int main(int argC, char* argS[]){
 
 }
 
-int ErrorCode1(){
+void ErrorCode1(){
 
   printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
   
