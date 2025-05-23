@@ -9,6 +9,9 @@
 
 const int screenWidth = 800;
 const int screenHeight = 600;
+static SDL_Window *window = NULL;
+static SDL_Renderer *renderer = NULL;
+
 
 
 // Testing Error function
@@ -55,7 +58,7 @@ void windowCreation (){
 
 
   // Create window
-  screenWindow = SDL_CreateWindow( "SDL Tutorial", screenWidth, screenHeight, SDL_WINDOW_BORDERLESS);
+  screenWindow = SDL_CreateWindowAndRenderer( "SDL Tutorial", screenWidth, screenHeight, SDL_WINDOW_FULLSCREEN, &window, &renderer,);
 
   if( screenWindow == NULL ) {
 
