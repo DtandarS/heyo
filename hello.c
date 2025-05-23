@@ -73,8 +73,7 @@ void windowCreation (){
   screenSurface = SDL_GetWindowSurface (screenWindow);
 
   // Fill the surface white
-  SDL_FillRect (ScreenSurface, NULL, SDL_MapRGB(screenSurface->format, 0xFF, 0xFF, 0xFF,));
-
+  SDL_RenderDrawColor ();
   // Uptade the surface
 SDL_UpdateWindowSurface (screenWindow)
 
