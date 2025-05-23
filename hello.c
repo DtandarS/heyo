@@ -1,5 +1,6 @@
 // SDL and standard IO
 
+#include <SDL3/SDL_main.h>
 #include <SDL3/SDL.h>
 #include <stdio.h>
 
@@ -79,4 +80,6 @@ int main(int argC, char* argS[]){
   windowCreation();
 
 }
+
+
 
