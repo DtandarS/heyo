@@ -80,9 +80,3 @@ int main(int argC, char* argS[]){
 
 }
 
-void ErrorCode1(){
-
-  printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
-  
-}
-
