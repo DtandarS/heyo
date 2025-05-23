@@ -68,6 +68,18 @@ void windowCreation (){
 
   printf("Window Created Succesfully");
 
+  // Get window surface
+  screenSurface = SDL_GetWindowSurface (screenWindow);
+
+  // Fill the surface white
+  SDL_FillRect (ScreenSurface, NULL, SDL_MapRGB(screenSurface->format, 0xFF, 0xFF, 0xFF,));
+
+  // Uptade the surface
+SDL_UpdateWindowSurface (screenWindow)
+
+  // This keeps the window up and running
+  SDL_Event e; bool quit = false; while ( quit == false ){ while ( SDL_PollEvent ( &r ) ){ if ( e.type == SDL_QUIT ) quit = true; }}
+
 }
 
 
