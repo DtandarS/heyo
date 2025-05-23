@@ -35,9 +35,6 @@ void ErrorCode2(){
 
 void SDLInitCheck(){
 
-  SDL_Surface* screenSurface = NULL;
-
-
   //This will initialize SDL
 
   if (SDL_Init(SDL_INIT_VIDEO) == -1){
@@ -53,6 +50,7 @@ void SDLInitCheck(){
 
 void windowCreation (){
 
+  SDL_Surface* screenSurface = NULL;
   SDL_Window* screenWindow = NULL;
 
 
